@@ -1,0 +1,86 @@
+echo "# Mi-hoja-de-vida" >> README.md 
+git init 
+git add README.md 
+git commit -m "first commit" 
+git branch -M main 
+git remote add origin https://github.com/Anita978/Mi-hoja-de-vida.git
+ git push -u origin main<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida - Ana Sofía Gutiérrez</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        h2 {
+            color: #2980b9;
+            margin-top: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+        .info-p {
+            margin: 5px 0;
+        }
+        ul {
+            margin: 5px 0 15px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Ana Sofía Gutiérrez</h1>
+        <p class="info-p"><strong>Ubicación:</strong> Guática, Risaralda</p>
+
+        <h2>Perfil Profesional</h2>
+        <p>Estudiante de grado 11 con vocación de servicio, orientada al logro y con experiencia práctica en atención al cliente y gestión de caja. Destaco por mi responsabilidad, agilidad en el servicio y adaptabilidad para apoyar labores comerciales y administrativas.</p>
+
+        <h2>Educación</h2>
+        <p class="info-p"><strong>Instituto Guática</strong></p>
+        <p class="info-p">Bachillerato Académico (En curso - Grado 11)</p>
+        <p class="info-p"><em>24/01/2021 – Presente</em></p>
+
+        <h2>Experiencia Laboral</h2>
+        <p class="info-p"><strong>Fogón del Arroz</strong> — <em>Atención en Mostrador</em></p>
+        <ul>
+            <li>Atención directa y oportuna a clientes en mostrador.</li>
+            <li>Cuadre y manejo diario de caja de manera precisa.</li>
+            <li>Mantenimiento del orden y buena presentación del área de servicio.</li>
+        </ul>
+
+        <h2>Habilidades y Competencias</h2>
+        <ul>
+            <li>Atención al cliente y servicio de mostrador.</li>
+            <li>Cuadre de caja y operaciones matemáticas básicas.</li>
+            <li>Trabajo en equipo y comunicación asertiva.</li>
+            <li>Responsabilidad y puntualidad.</li>
+        </ul>
+
+        <h2>Intereses</h2>
+        <ul>
+            <li>Desarrollo personal y formación académica continua.</li>
+            <li>Uso y aprendizaje de nuevas tecnologías informáticas.</li>
+        </ul>
+    </div>
+</body>
+</html>
